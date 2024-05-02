@@ -1,0 +1,32 @@
+fieldset{
+    margin: 2% 20% 5% 20%;
+    background-color: wheat;
+}
+
+.demo {
+    color: wheat;
+    width: 50%;
+     height: 30px;
+      border: radius 5px;
+      border: none;
+      background-color: wheat;
+      border-bottom: 3px solid orangered;
+}
+
+.demo2{
+    color:white;
+    width: 20%;
+    height: 40px;
+    border-radius: 2px;
+    border:none ;
+    background-color: blue;
+    border: bottom 1px solid orangered ;
+    
+
+    
+}
+
+.demo2:hover{
+background-color:green ;
+
+}

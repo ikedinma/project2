@@ -1,0 +1,40 @@
+.a {
+    display: flex;
+    margin: 120px;
+}
+
+.a a {
+    padding: 15px 50px 15px 50px;
+    background-color: #008099;
+    text-decoration: none;
+    border-radius: 50px;
+    color: #fff;
+    margin-top: 20px;
+
+}
+
+.fa{
+    font-size: 40px;
+    padding: 18px;
+    border-radius: 60%;
+    width: 50px;
+    text-decoration:none ;
+    margin: 2px 2px;
+}
+
+.fa-facebook{
+    background-color: antiquewhite;
+    color: blue;
+    text-align:center ;
+}
+.fa-twitter{
+    background-color: antiquewhite;
+    color: blue;
+    text-align: center;
+}
+
+.fa-instagram{
+    background-color: antiquewhite;
+    color: blue;
+    text-align:center ;
+}

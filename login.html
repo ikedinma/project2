@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/form.css">
+</head>
+
+<body>
+    <fieldset>
+        <legend>Registration form </legend>
+        <form action="script.php" method="post">
+            <label> Name:</label><br>
+            <input class="demo" type="text" name="username" placeholder="Please Enter Name" required > <br>
+            <br>
+            <label> password</label> <br>
+            <input class="demo" type="password" name="password"> <br>
+            <br>
+            <label> Email</label><br>
+            <input class="demo"  type="Email" name="Email" placeholder="EnterEmail"><br>
+            <br>
+            <label> Place of birth</label>
+            <input type="Date" name="DOB"> <br>
+            <br>
+            <label> Select Field of Study</label>
+            <select name=" course">
+                <option value="frontend"> frontend</option>
+                <option value="backend"> backend</option>
+                <option value="data analytics">Data</option>
+                <option value="UIVX">UIVX</option>
+
+            </select> <br>
+
+            <p>Marital Status</p>
+            <label for="Single">Single</label>
+            <input type="radio" name="status" value="Single"> <br>
+            <br>
+            <label for="Married">Married</label>
+            <input type="radio" name="status" value="Married">
+
+            <p> Select prefered country</p>
+            <label for="China">China</label>
+            <input type="checkbox" name="country" value="China"><br>
+
+            <label for="Canada">Canada</label>
+            <input type="checkbox" name="country" value="Canada"> <br>
+
+            <label for="USA">USA</label>
+            <input type="checkbox" name="country" value="USA"><br>
+
+            <label for="KOREA">Korea</label>
+            <input type="checkbox" name="country" value="Korea"> <br>
+
+            <label for="THAILAND">Thailand</label>
+            <input type="checkbox" name="country" value="Thailand"> <br>
+            <br>
+            <label> Describe yourself</label> <br>
+            <textarea name="description"></textarea><br>
+            <br>
+            <label>Upload photo</label><br>
+            <br>
+            <input type="file"><br>
+            <br>
+            <input class="demo2" type="Submit"><br>
+
+
+        </form>
+
+    </fieldset>
+</body>
+
+</html>
